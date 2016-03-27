@@ -1,0 +1,81 @@
+$font-stack:    Helvetica, sans-serif;
+
+html, body {
+  font: 100% $font-stack;
+  margin: 0;
+  padding: 0;
+}
+
+#mainContainer {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: 5%;
+
+  #skyContainer {
+    width: 2500px;
+    height: 2500px;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; right: 0;
+
+    img#skyBackground {
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 100%;
+    } //img#skyBackground
+
+    img#welcomeText {
+      display: block;
+      position: absolute;
+      top: 4%;
+      left: 4%;
+      height: 15%;
+    } //img#welcomeText
+
+    img#ocean {
+      display: block;
+      position: absolute;
+      top: 36.5%;
+      left: -3.5%;
+      height: 47%;
+    } //img#ocean
+
+    img#tentacles {
+      display: block;
+      position: absolute;
+      top: 52.8%;
+      left: 27%;
+    } //img#ocean
+
+    img#van {
+      display: block;
+      position: absolute;
+      top: 59%;
+      right: 3%;
+    } //img#van
+
+    img#sketchBook {
+      display: block;
+      position: absolute;
+      top: 73%;
+      right: 8%;
+    } //img#sketchBook
+
+    img#computer {
+      display: block;
+      position: absolute;
+      top: 70%;
+      right: -3%;
+    } //img#computer
+
+    img#flipPhone {
+      display: block;
+      position: absolute;
+      top: 81.5%;
+      right: -6%;
+    } //img#flipPhone
+  } // #skyContainer
+} //#mainContainer

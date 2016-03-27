@@ -1,0 +1,63 @@
+html, body {
+  font: 100% Helvetica, sans-serif;
+  margin: 0;
+  padding: 0; }
+
+#mainContainer {
+  display: block;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  margin-top: 5%; }
+  #mainContainer #skyContainer {
+    width: 2500px;
+    height: 2500px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0; }
+    #mainContainer #skyContainer img#skyBackground {
+      display: block;
+      position: relative;
+      height: 100%;
+      width: 100%; }
+    #mainContainer #skyContainer img#welcomeText {
+      display: block;
+      position: absolute;
+      top: 4%;
+      left: 4%;
+      height: 15%; }
+    #mainContainer #skyContainer img#ocean {
+      display: block;
+      position: absolute;
+      top: 36.5%;
+      left: -3.5%;
+      height: 47%; }
+    #mainContainer #skyContainer img#tentacles {
+      display: block;
+      position: absolute;
+      top: 52.8%;
+      left: 27%; }
+    #mainContainer #skyContainer img#van {
+      display: block;
+      position: absolute;
+      top: 59%;
+      right: 3%; }
+    #mainContainer #skyContainer img#sketchBook {
+      display: block;
+      position: absolute;
+      top: 73%;
+      right: 8%; }
+    #mainContainer #skyContainer img#computer {
+      display: block;
+      position: absolute;
+      top: 70%;
+      right: -3%; }
+    #mainContainer #skyContainer img#flipPhone {
+      display: block;
+      position: absolute;
+      top: 81.5%;
+      right: -6%; }
+
+/*# sourceMappingURL=index.css.map */

@@ -10,8 +10,8 @@ html, body {
   width: 100%;
   margin-top: 5%; }
   #mainContainer #skyContainer {
-    width: 2500px;
-    height: 2500px;
+    width: 625px;
+    height: 625px;
     margin: auto;
     position: absolute;
     top: 0;
@@ -31,33 +31,38 @@ html, body {
     #mainContainer #skyContainer img#ocean {
       display: block;
       position: absolute;
-      top: 36.5%;
+      top: 36.8%;
       left: -3.5%;
-      height: 47%; }
+      height: 46.5%; }
     #mainContainer #skyContainer img#tentacles {
       display: block;
       position: absolute;
-      top: 52.8%;
-      left: 27%; }
+      top: 52.3%;
+      left: 23.5%;
+      height: 6.5%; }
     #mainContainer #skyContainer img#van {
       display: block;
       position: absolute;
-      top: 59%;
-      right: 3%; }
+      top: 58%;
+      right: -4%;
+      height: 11%; }
     #mainContainer #skyContainer img#sketchBook {
       display: block;
       position: absolute;
       top: 73%;
-      right: 8%; }
+      right: 7.5%;
+      height: 8%; }
     #mainContainer #skyContainer img#computer {
       display: block;
       position: absolute;
-      top: 70%;
-      right: -3%; }
+      top: 72%;
+      right: -3%;
+      height: 15%; }
     #mainContainer #skyContainer img#flipPhone {
       display: block;
       position: absolute;
-      top: 81.5%;
-      right: -6%; }
+      top: 82.5%;
+      right: -6.5%;
+      height: 7%; }
 
 /*# sourceMappingURL=index.css.map */
